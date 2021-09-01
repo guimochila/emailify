@@ -1,0 +1,12 @@
+{
+  "name": "emailify",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "lerna": "^4.0.0",
+    "typescript": "^4.4.2"
+  }
+}
