@@ -11,6 +11,8 @@
     "no-unused-vars": [
       "error",
       { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }
-    ]
+    ],
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-empty-interface": "off"
   }
 }
