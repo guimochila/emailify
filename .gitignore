@@ -118,3 +118,6 @@ dist
 .pnp.*
 
 *.generated.css
+
+# Turborepo
+.turbo

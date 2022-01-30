@@ -4,7 +4,7 @@ import passport from 'passport';
 import 'dotenv/config';
 import cors from 'cors';
 import { json, urlencoded } from 'body-parser';
-import router from './routes';
+import { getRoutes } from './routes';
 
 const app = express();
 
@@ -28,6 +28,6 @@ app.use(
 app.use(passport.initialize());
 app.use(passport.session());
 
-app.use(router);
+app.use('/api', getRoutes());
 
 export default app;

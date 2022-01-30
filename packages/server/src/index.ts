@@ -6,6 +6,7 @@ const port = process.env.PORT || 5000;
 /* Start database and load models */
 startDatabase().catch((err) => console.error(err));
 import('./models/User');
+import('./models/Survey');
 /* End section of database */
 
 /* Start passport service */
